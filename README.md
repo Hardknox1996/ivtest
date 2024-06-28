@@ -1,18 +1,18 @@
 # ivtest
 
-###First run the Backend useing below steps
-Go to "ivb" folder
-`npm i`
-`node index.js`
+###First run the Backend useing below steps<br />
+Go to "ivb" folder<br />
+`npm i`<br />
+`node index.js`<br />
+<br />
+This will create a local server on "http://localhost:8000" <br />
+There will be 2 end points<br />
+get  -   http://localhost:8000/getlist           - To get all the products<br />
+post  -   http://localhost:8000/updateList        - Add new product<br />
 
-This will create a local server on "http://localhost:8000" 
-There will be 2 end points
-get  -   http://localhost:8000/getlist           - To get all the products
-post  -   http://localhost:8000/updateList        - Add new product
-
-
-### Then run Frontend useing below steps
-Gp tp "ivf" folder
-`npm i`
-`npm run dev`
+<br /><br />
+### Then run Frontend useing below steps<br />
+Gp tp "ivf" folder<br />
+`npm i`<br />
+`npm run dev`<br />
 Then open  "http://localhost:5173/" this URL in browser. 
