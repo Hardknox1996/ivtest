@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   const [products, setProducts] = useState([]);
-  let baseUrl = import.meta.env.VITE_BACKEND_BASE_URL;
+  let baseUrl = import.meta.env.VITE_BACKEND_BASE_URL || "http://localhost:8000";
   
   // console.log(import.meta.env.VITE_BACKEND_BASE_URL || "http://localhost:8000")
   
