@@ -12,7 +12,7 @@ function App() {
   const [products, setProducts] = useState([]);
   let baseUrl = import.meta.env.VITE_BACKEND_BASE_URL;
   
-  // console.log(import.meta.env.VITE_BACKEND_BASE_URL)
+  // console.log(import.meta.env.VITE_BACKEND_BASE_URL || "http://localhost:8000")
   
   useEffect(() => {
     axios
